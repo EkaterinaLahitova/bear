@@ -1,0 +1,557 @@
+/* Star positions and opacity tracks for the desktop and mobile Figma finals. */
+.den-victory-stars {
+  position: absolute; inset: 0 auto 0 50%;
+  width: calc(var(--final-frame-width) * var(--final-unit)); transform: translateX(-50%);
+}
+.den-victory-stars img {
+  position: absolute; object-fit: cover;
+  left: calc(var(--x) * var(--final-unit)); top: calc(var(--y) * var(--final-unit));
+  width: calc(var(--width) * var(--final-unit)); height: calc(var(--height) * var(--final-unit));
+  animation: var(--twinkle) var(--star-cycle) linear infinite;
+}
+.den-victory-stars [data-star="19"] {
+  --x: 154; --y: 163; --width: 32; --height: 32; --twinkle: kf_330_153_opacity_0;
+}
+@keyframes kf_330_153_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  13.8% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  25.55% { animation-timing-function: ease-in-out; opacity: 1; }
+  39.3% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  51.3% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  63.8% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  75.8% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="20"] {
+  --x: 481; --y: 241; --width: 68; --height: 77.5; --twinkle: kf_330_168_opacity_0;
+}
+@keyframes kf_330_168_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  18.85% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  30.6% { animation-timing-function: ease-in-out; opacity: 1; }
+  44.35% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  56.35% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  68.85% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  80.85% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="18"] {
+  --x: 243; --y: 61; --width: 149.624; --height: 149.624; --twinkle: kf_330_661_opacity_0;
+}
+@keyframes kf_330_661_opacity_0 {
+  0% { opacity: 1; }
+  0.208% { opacity: 0.998; }
+  0.417% { opacity: 0.994; }
+  0.625% { opacity: 0.986; }
+  0.833% { opacity: 0.974; }
+  1.042% { opacity: 0.959; }
+  1.25% { opacity: 0.941; }
+  1.458% { opacity: 0.919; }
+  1.667% { opacity: 0.894; }
+  1.875% { opacity: 0.866; }
+  2.083% { opacity: 0.834; }
+  2.292% { opacity: 0.8; }
+  2.5% { opacity: 0.763; }
+  2.708% { opacity: 0.724; }
+  2.917% { opacity: 0.683; }
+  3.125% { opacity: 0.641; }
+  3.333% { opacity: 0.599; }
+  3.542% { opacity: 0.556; }
+  3.75% { opacity: 0.514; }
+  3.958% { opacity: 0.473; }
+  4.167% { opacity: 0.434; }
+  4.375% { opacity: 0.396; }
+  4.583% { opacity: 0.361; }
+  4.792% { opacity: 0.328; }
+  5% { opacity: 0.299; }
+  5.208% { opacity: 0.272; }
+  5.417% { opacity: 0.249; }
+  5.625% { opacity: 0.228; }
+  5.833% { opacity: 0.21; }
+  6.042% { opacity: 0.195; }
+  6.25% { opacity: 0.183; }
+  6.458% { opacity: 0.173; }
+  6.667% { opacity: 0.166; }
+  6.875% { opacity: 0.161; }
+  7% { opacity: 0.158; }
+  7.083% { opacity: 0.157; }
+  7.292% { opacity: 0.155; }
+  7.5% { opacity: 0.153; }
+  7.708% { opacity: 0.152; }
+  7.917% { opacity: 0.152; }
+  8.125% { opacity: 0.152; }
+  8.333% { opacity: 0.153; }
+  8.542% { opacity: 0.154; }
+  8.75% { opacity: 0.157; }
+  8.958% { opacity: 0.159; }
+  9.167% { opacity: 0.163; }
+  9.375% { opacity: 0.166; }
+  9.583% { opacity: 0.171; }
+  9.792% { opacity: 0.176; }
+  10% { opacity: 0.181; }
+  10.208% { opacity: 0.187; }
+  10.417% { opacity: 0.194; }
+  10.625% { opacity: 0.201; }
+  10.833% { opacity: 0.208; }
+  11.042% { opacity: 0.216; }
+  11.25% { opacity: 0.225; }
+  11.458% { opacity: 0.234; }
+  11.667% { opacity: 0.243; }
+  11.875% { opacity: 0.253; }
+  12.083% { opacity: 0.263; }
+  12.292% { opacity: 0.274; }
+  12.5% { opacity: 0.285; }
+  12.708% { opacity: 0.296; }
+  12.917% { opacity: 0.307; }
+  13.085% { opacity: 0.317; }
+  13.125% { opacity: 0.319; }
+  13.333% { opacity: 0.331; }
+  13.542% { opacity: 0.343; }
+  13.75% { opacity: 0.355; }
+  13.958% { opacity: 0.366; }
+  14.167% { opacity: 0.377; }
+  14.375% { opacity: 0.388; }
+  14.583% { opacity: 0.399; }
+  14.792% { opacity: 0.409; }
+  15% { opacity: 0.419; }
+  15.208% { opacity: 0.428; }
+  15.417% { opacity: 0.437; }
+  15.625% { opacity: 0.446; }
+  15.833% { opacity: 0.454; }
+  16.042% { opacity: 0.462; }
+  16.25% { opacity: 0.469; }
+  16.458% { opacity: 0.475; }
+  16.667% { opacity: 0.482; }
+  16.875% { opacity: 0.487; }
+  17.083% { opacity: 0.493; }
+  17.292% { opacity: 0.497; }
+  17.5% { opacity: 0.502; }
+  17.708% { opacity: 0.506; }
+  17.917% { opacity: 0.509; }
+  18.125% { opacity: 0.512; }
+  18.333% { opacity: 0.514; }
+  18.542% { opacity: 0.516; }
+  18.75% { opacity: 0.518; }
+  18.958% { opacity: 0.519; }
+  19.167% { opacity: 0.521; }
+  19.375% { opacity: 0.522; }
+  19.583% { opacity: 0.522; }
+  19.792% { opacity: 0.523; }
+  20% { opacity: 0.523; }
+  20.208% { opacity: 0.524; }
+  20.417% { opacity: 0.524; }
+  20.625% { opacity: 0.523; }
+  20.833% { opacity: 0.523; }
+  21.042% { opacity: 0.522; }
+  21.25% { opacity: 0.521; }
+  21.458% { opacity: 0.52; }
+  21.667% { opacity: 0.519; }
+  21.875% { opacity: 0.517; }
+  22.083% { opacity: 0.515; }
+  22.292% { opacity: 0.513; }
+  22.5% { opacity: 0.511; }
+  22.708% { opacity: 0.508; }
+  22.917% { opacity: 0.505; }
+  23.125% { opacity: 0.502; }
+  23.333% { opacity: 0.499; }
+  23.542% { opacity: 0.495; }
+  23.75% { opacity: 0.491; }
+  23.958% { opacity: 0.487; }
+  24.167% { opacity: 0.483; }
+  24.375% { opacity: 0.478; }
+  24.583% { opacity: 0.474; }
+  24.792% { opacity: 0.469; }
+  25% { opacity: 0.464; }
+  25.208% { opacity: 0.459; }
+  25.417% { opacity: 0.454; }
+  25.625% { opacity: 0.449; }
+  25.833% { opacity: 0.443; }
+  26.042% { opacity: 0.438; }
+  26.25% { opacity: 0.433; }
+  26.458% { opacity: 0.428; }
+  26.667% { opacity: 0.422; }
+  26.875% { opacity: 0.417; }
+  27.083% { opacity: 0.412; }
+  27.292% { opacity: 0.408; }
+  27.5% { opacity: 0.403; }
+  27.708% { opacity: 0.398; }
+  27.917% { opacity: 0.394; }
+  28.125% { opacity: 0.39; }
+  28.333% { opacity: 0.386; }
+  28.542% { opacity: 0.382; }
+  28.75% { opacity: 0.379; }
+  28.958% { opacity: 0.376; }
+  29.167% { opacity: 0.373; }
+  29.375% { opacity: 0.37; }
+  29.583% { opacity: 0.368; }
+  29.792% { opacity: 0.366; }
+  30% { opacity: 0.365; }
+  30.208% { opacity: 0.364; }
+  30.417% { opacity: 0.363; }
+  30.625% { opacity: 0.362; }
+  30.833% { opacity: 0.362; }
+  31.042% { opacity: 0.362; }
+  31.25% { opacity: 0.362; }
+  31.458% { opacity: 0.363; }
+  31.667% { opacity: 0.364; }
+  31.875% { opacity: 0.366; }
+  32.083% { opacity: 0.368; }
+  32.292% { opacity: 0.37; }
+  32.5% { opacity: 0.372; }
+  32.708% { opacity: 0.375; }
+  32.917% { opacity: 0.379; }
+  33.125% { opacity: 0.382; }
+  33.333% { opacity: 0.386; }
+  33.542% { opacity: 0.391; }
+  33.75% { opacity: 0.396; }
+  33.958% { opacity: 0.402; }
+  34.167% { opacity: 0.408; }
+  34.375% { opacity: 0.414; }
+  34.583% { opacity: 0.422; }
+  34.792% { opacity: 0.429; }
+  35% { opacity: 0.438; }
+  35.208% { opacity: 0.446; }
+  35.417% { opacity: 0.456; }
+  35.625% { opacity: 0.465; }
+  35.833% { opacity: 0.476; }
+  36.042% { opacity: 0.487; }
+  36.25% { opacity: 0.498; }
+  36.458% { opacity: 0.51; }
+  36.667% { opacity: 0.523; }
+  36.875% { opacity: 0.536; }
+  37.083% { opacity: 0.549; }
+  37.292% { opacity: 0.563; }
+  37.5% { opacity: 0.577; }
+  37.708% { opacity: 0.591; }
+  37.917% { opacity: 0.606; }
+  38.125% { opacity: 0.621; }
+  38.333% { opacity: 0.636; }
+  38.542% { opacity: 0.651; }
+  38.75% { opacity: 0.666; }
+  38.958% { opacity: 0.681; }
+  39.167% { opacity: 0.696; }
+  39.375% { opacity: 0.711; }
+  39.583% { opacity: 0.726; }
+  39.792% { opacity: 0.74; }
+  40% { opacity: 0.754; }
+  40.208% { opacity: 0.768; }
+  40.417% { opacity: 0.781; }
+  40.625% { opacity: 0.794; }
+  40.833% { opacity: 0.806; }
+  41.042% { opacity: 0.818; }
+  41.25% { opacity: 0.829; }
+  41.458% { opacity: 0.84; }
+  41.667% { opacity: 0.85; }
+  41.875% { opacity: 0.859; }
+  42.083% { opacity: 0.868; }
+  42.292% { opacity: 0.876; }
+  42.5% { opacity: 0.884; }
+  42.708% { opacity: 0.891; }
+  42.917% { opacity: 0.897; }
+  43.125% { opacity: 0.902; }
+  43.333% { opacity: 0.907; }
+  43.542% { opacity: 0.912; }
+  43.75% { opacity: 0.916; }
+  43.958% { opacity: 0.919; }
+  44.167% { opacity: 0.921; }
+  44.375% { opacity: 0.923; }
+  44.5% { opacity: 0.924; }
+  44.583% { opacity: 0.924; }
+  44.792% { opacity: 0.925; }
+  45% { opacity: 0.925; }
+  45.208% { opacity: 0.924; }
+  45.417% { opacity: 0.922; }
+  45.625% { opacity: 0.919; }
+  45.833% { opacity: 0.915; }
+  46.042% { opacity: 0.91; }
+  46.25% { opacity: 0.905; }
+  46.458% { opacity: 0.898; }
+  46.667% { opacity: 0.891; }
+  46.875% { opacity: 0.883; }
+  47.083% { opacity: 0.873; }
+  47.292% { opacity: 0.863; }
+  47.5% { opacity: 0.852; }
+  47.708% { opacity: 0.84; }
+  47.917% { opacity: 0.827; }
+  48.125% { opacity: 0.813; }
+  48.333% { opacity: 0.798; }
+  48.542% { opacity: 0.782; }
+  48.75% { opacity: 0.766; }
+  48.958% { opacity: 0.749; }
+  49.167% { opacity: 0.731; }
+  49.375% { opacity: 0.712; }
+  49.583% { opacity: 0.693; }
+  49.792% { opacity: 0.674; }
+  50% { opacity: 0.654; }
+  50.208% { opacity: 0.634; }
+  50.417% { opacity: 0.613; }
+  50.625% { opacity: 0.592; }
+  50.833% { opacity: 0.572; }
+  51.042% { opacity: 0.551; }
+  51.25% { opacity: 0.531; }
+  51.458% { opacity: 0.51; }
+  51.667% { opacity: 0.49; }
+  51.875% { opacity: 0.471; }
+  52.083% { opacity: 0.451; }
+  52.292% { opacity: 0.433; }
+  52.5% { opacity: 0.415; }
+  52.708% { opacity: 0.397; }
+  52.917% { opacity: 0.38; }
+  53.125% { opacity: 0.364; }
+  53.333% { opacity: 0.349; }
+  53.542% { opacity: 0.334; }
+  53.75% { opacity: 0.321; }
+  53.958% { opacity: 0.308; }
+  54.167% { opacity: 0.296; }
+  54.375% { opacity: 0.285; }
+  54.583% { opacity: 0.275; }
+  54.792% { opacity: 0.266; }
+  55% { opacity: 0.257; }
+  55.208% { opacity: 0.25; }
+  55.417% { opacity: 0.243; }
+  55.625% { opacity: 0.237; }
+  55.833% { opacity: 0.232; }
+  56.042% { opacity: 0.228; }
+  56.25% { opacity: 0.225; }
+  56.458% { opacity: 0.223; }
+  56.667% { opacity: 0.221; }
+  56.875% { opacity: 0.22; }
+  57% { opacity: 0.22; }
+  57.083% { opacity: 0.22; }
+  57.292% { opacity: 0.221; }
+  57.5% { opacity: 0.223; }
+  57.708% { opacity: 0.225; }
+  57.917% { opacity: 0.229; }
+  58.125% { opacity: 0.233; }
+  58.333% { opacity: 0.239; }
+  58.542% { opacity: 0.246; }
+  58.75% { opacity: 0.253; }
+  58.958% { opacity: 0.262; }
+  59.167% { opacity: 0.272; }
+  59.375% { opacity: 0.282; }
+  59.583% { opacity: 0.294; }
+  59.792% { opacity: 0.307; }
+  60% { opacity: 0.321; }
+  60.208% { opacity: 0.336; }
+  60.417% { opacity: 0.351; }
+  60.625% { opacity: 0.368; }
+  60.833% { opacity: 0.386; }
+  61.042% { opacity: 0.405; }
+  61.25% { opacity: 0.424; }
+  61.458% { opacity: 0.444; }
+  61.667% { opacity: 0.465; }
+  61.875% { opacity: 0.487; }
+  62.083% { opacity: 0.509; }
+  62.292% { opacity: 0.531; }
+  62.5% { opacity: 0.554; }
+  62.708% { opacity: 0.577; }
+  62.917% { opacity: 0.601; }
+  63.125% { opacity: 0.624; }
+  63.333% { opacity: 0.647; }
+  63.542% { opacity: 0.67; }
+  63.75% { opacity: 0.693; }
+  63.958% { opacity: 0.716; }
+  64.167% { opacity: 0.738; }
+  64.375% { opacity: 0.759; }
+  64.583% { opacity: 0.78; }
+  64.792% { opacity: 0.8; }
+  65% { opacity: 0.819; }
+  65.208% { opacity: 0.838; }
+  65.417% { opacity: 0.855; }
+  65.625% { opacity: 0.872; }
+  65.833% { opacity: 0.887; }
+  66.042% { opacity: 0.902; }
+  66.25% { opacity: 0.916; }
+  66.458% { opacity: 0.928; }
+  66.667% { opacity: 0.94; }
+  66.875% { opacity: 0.95; }
+  67.083% { opacity: 0.96; }
+  67.292% { opacity: 0.968; }
+  67.5% { opacity: 0.976; }
+  67.708% { opacity: 0.982; }
+  67.917% { opacity: 0.988; }
+  68.125% { opacity: 0.992; }
+  68.333% { opacity: 0.995; }
+  68.542% { opacity: 0.998; }
+  68.75% { opacity: 0.999; }
+  68.958% { opacity: 1; }
+  69% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="26"] {
+  --x: 1512; --y: 170; --width: 148.807; --height: 148.807; --twinkle: kf_330_676_opacity_0;
+}
+@keyframes kf_330_676_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  12.925% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  24.675% { animation-timing-function: ease-in-out; opacity: 1; }
+  38.425% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  50.425% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  62.925% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  74.925% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="23"] {
+  --x: 1704; --y: 185; --width: 51; --height: 51; --twinkle: kf_330_691_opacity_0;
+}
+@keyframes kf_330_691_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  31.575% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  43.325% { animation-timing-function: ease-in-out; opacity: 1; }
+  57.075% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  69.075% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  81.575% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  93.575% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="16"] {
+  --x: 1524; --y: 26; --width: 37.5; --height: 37.5; --twinkle: kf_330_706_opacity_0;
+}
+@keyframes kf_330_706_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  30.7% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  42.45% { animation-timing-function: ease-in-out; opacity: 1; }
+  56.2% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  68.2% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  80.7% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  92.7% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="21"] {
+  --x: 295; --y: 206; --width: 46; --height: 46; --twinkle: kf_330_721_opacity_0;
+}
+@keyframes kf_330_721_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  19.725% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  31.475% { animation-timing-function: ease-in-out; opacity: 1; }
+  45.225% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  57.225% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  69.725% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  81.725% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="15"] {
+  --x: 1675; --y: 64; --width: 55; --height: 55; --twinkle: kf_330_736_opacity_0;
+}
+@keyframes kf_330_736_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  24.775% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  36.525% { animation-timing-function: ease-in-out; opacity: 1; }
+  50.275% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  62.275% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  74.775% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  86.775% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="24"] {
+  --x: 1323; --y: 241; --width: 32; --height: 32; --twinkle: kf_330_751_opacity_0;
+}
+@keyframes kf_330_751_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  7.875% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  19.625% { animation-timing-function: ease-in-out; opacity: 1; }
+  33.375% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  45.375% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  57.875% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  69.875% { opacity: 1; }
+  100% { opacity: 1; }
+}
+.den-victory-stars [data-star="22"] {
+  --x: 250; --y: 279; --width: 51.5; --height: 51.5; --twinkle: kf_330_766_opacity_0;
+}
+@keyframes kf_330_766_opacity_0 {
+  0% { animation-timing-function: ease-in-out; opacity: 1; }
+  25.65% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  37.4% { animation-timing-function: ease-in-out; opacity: 1; }
+  51.15% { animation-timing-function: ease-in-out; opacity: 0.48; }
+  63.15% { animation-timing-function: ease-in-out; opacity: 0.94; }
+  75.65% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  87.65% { opacity: 1; }
+  100% { opacity: 1; }
+}
+/* Each mobile star reaches full brightness before restarting the two-second loop. */
+.stage[data-mobile] .den-victory-stars [data-star="19"] {
+  --x: 64.58; --y: 51.46; --width: 13.319; --height: 13.319; --twinkle: kf_330_1675_opacity_0;
+}
+@keyframes kf_330_1675_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  41.4% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  76.65% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="20"] {
+  --x: 200.68; --y: 83.92; --width: 28.303; --height: 32.257; --twinkle: kf_330_1685_opacity_0;
+}
+@keyframes kf_330_1685_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  56.55% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  91.8% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="18"] {
+  --x: 101.62; --y: 9; --width: 62.277; --height: 62.277; --twinkle: kf_330_2173_opacity_0;
+}
+@keyframes kf_330_2173_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  22% { animation-timing-function: ease-in-out; opacity: 0.15; }
+  58.75% { animation-timing-function: ease-in-out; opacity: 0.522; }
+  69% { animation-timing-function: ease-in-out; opacity: 0.38; }
+  94% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="26"] {
+  --x: 622; --y: 61; --width: 61.937; --height: 61.937; --twinkle: kf_330_2183_opacity_0;
+}
+@keyframes kf_330_2183_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  38.775% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  74.025% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="23"] {
+  --x: 709.73; --y: 74.18; --width: 21.228; --height: 21.228; --twinkle: kf_330_2193_opacity_0;
+}
+@keyframes kf_330_2193_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  73% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  96% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="16"] {
+  --x: 637; --y: 28; --width: 15.608; --height: 15.608; --twinkle: kf_330_2203_opacity_0;
+}
+@keyframes kf_330_2203_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  68% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  92% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="21"] {
+  --x: 123.27; --y: 69.35; --width: 19.146; --height: 19.146; --twinkle: kf_330_2213_opacity_0;
+}
+@keyframes kf_330_2213_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  59.175% { animation-timing-function: ease-in-out; opacity: 0.31; }
+  94.425% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="15"] {
+  --x: 690; --y: 16; --width: 27; --height: 28; --twinkle: kf_330_2223_opacity_0;
+}
+@keyframes kf_330_2223_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  71% { animation-timing-function: ease-in-out; opacity: 0.22; }
+  94% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="24"] {
+  --x: 571; --y: 88; --width: 13; --height: 13; --twinkle: kf_330_2233_opacity_0;
+}
+@keyframes kf_330_2233_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  23.625% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  58.875% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+.stage[data-mobile] .den-victory-stars [data-star="22"] {
+  --x: 104.53; --y: 99.74; --width: 21.436; --height: 21.436; --twinkle: kf_330_2243_opacity_0;
+}
+@keyframes kf_330_2243_opacity_0 {
+  0%, 100% { animation-timing-function: ease-in-out; opacity: 1; }
+  76.95% { animation-timing-function: ease-in-out; opacity: 0.4; }
+  96% { animation-timing-function: ease-in-out; opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .den-victory-stars img { animation: none; }
+}
